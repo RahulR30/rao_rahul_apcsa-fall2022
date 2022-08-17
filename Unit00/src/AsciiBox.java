@@ -1,10 +1,10 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
 
-//Name -
-//Date -
-//Class -
-//Lab  -
+//Name - Rahul Rao
+//Date -08/17/22
+//Class - AP CSA
+//Lab  - Unit 0
 
 public class AsciiBox
 {
