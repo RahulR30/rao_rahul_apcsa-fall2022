@@ -1,10 +1,10 @@
 //© A+ Computer Science
 //www.apluscompsci.com
 
-//Name -
-//Date -
-//Class -
-//Lab  -
+//Name - Rahul Rao
+//Date - 8/17/22
+//Class - AP CSA
+//Lab  - Unit 1
 
 import static java.lang.System.*;
 
