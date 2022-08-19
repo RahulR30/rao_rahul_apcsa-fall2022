@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f28a057a-f947-4416-82c5-9d0acf1928f7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CubeRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LineRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TrapRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit00/out/production/Unit00/AsciiArt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit00/out/production/Unit00/AsciiArt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit00/out/production/Unit00/Variables.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit00/out/production/Unit00/Variables.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit00/src/AsciiArt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit00/src/AsciiArt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit00/src/Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit00/src/Variables.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DXSTUjve7QrY1sY09Vg3VeF2lV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f28a057a-f947-4416-82c5-9d0acf1928f7" name="Changes" comment="" />
+      <created>1660843946217</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660843946217</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
