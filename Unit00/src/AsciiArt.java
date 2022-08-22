@@ -7,6 +7,7 @@
 //Lab  -  Unit 0
 
 public class AsciiArt
+
 {
 	public static void main ( String[] args )
 	{

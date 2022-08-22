@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f28a057a-f947-4416-82c5-9d0acf1928f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cube.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CubeRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Line.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LineRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TrapRunner.java" afterDir="false" />
+    <list default="true" id="f28a057a-f947-4416-82c5-9d0acf1928f7" name="Changes" comment="Initializing Unit 2">
       <change beforePath="$PROJECT_DIR$/../Unit00/out/production/Unit00/AsciiArt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit00/out/production/Unit00/AsciiArt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unit00/out/production/Unit00/Variables.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit00/out/production/Unit00/Variables.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Unit00/src/AsciiArt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit00/src/AsciiArt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unit00/src/Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit00/src/Variables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cube.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cube.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TrapRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrapRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,20 +26,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.CubeRunner">
+    <configuration name="CubeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CubeRunner" />
+      <module name="Unit02" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LineRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LineRunner" />
+      <module name="Unit02" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrapRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TrapRunner" />
+      <module name="Unit02" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CubeRunner" />
+        <item itemvalue="Application.LineRunner" />
+        <item itemvalue="Application.TrapRunner" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -59,6 +79,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660843946217</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initializing Unit 2">
+      <created>1660930125329</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660930125329</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -71,5 +99,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initializing Unit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initializing Unit 2" />
   </component>
 </project>
