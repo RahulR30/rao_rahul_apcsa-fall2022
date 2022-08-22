@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f28a057a-f947-4416-82c5-9d0acf1928f7" name="Changes" comment="Initializing Unit 2">
-      <change beforePath="$PROJECT_DIR$/../Unit00/out/production/Unit00/AsciiArt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit00/out/production/Unit00/AsciiArt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unit00/src/AsciiArt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit00/src/AsciiArt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cube.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cube.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TrapRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrapRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660930125329</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initializing Unit 2">
+      <created>1661127870927</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661127870928</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initializing Unit 2">
+      <created>1661127884736</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661127884736</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +110,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Unit 2 complete" />
     <MESSAGE value="Initializing Unit 2" />
     <option name="LAST_COMMIT_MESSAGE" value="Initializing Unit 2" />
   </component>
