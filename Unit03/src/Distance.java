@@ -25,10 +25,15 @@ public class Distance
 
 	public void setCoordinates(int x1, int y1, int x2, int y2)
 	{
+		xOne = x1;
+		yOne = y1;
+		xTwo = x2;
+		yTwo = y2;
 	}
 
 	public void calcDistance()
 	{
+		distance = Math.sqrt(Math.pow((xTwo - xOne), 2) + Math.pow((yTwo - yOne), 2) );
 	}
 	
 	public double getDistance()
@@ -38,6 +43,7 @@ public class Distance
 	
 	public void print()
 	{
+		System.out.println("distance == " + Double.valueOf(Math.round(distance * 1000))/1000);
 	}
 	
 	//complete print or the toString

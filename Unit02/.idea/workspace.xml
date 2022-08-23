@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f28a057a-f947-4416-82c5-9d0acf1928f7" name="Changes" comment="Initializing Unit 2">
+      <change beforePath="$PROJECT_DIR$/../Unit01/src/test.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit03/src/DistanceRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit03/src/DistanceRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit03/src/MPHRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit03/src/MPHRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit03/src/MilesPerHour.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit03/src/MilesPerHour.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
