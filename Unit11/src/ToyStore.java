@@ -17,13 +17,11 @@ public class ToyStore {
 	public void loadToys(String toys) {
 		toyList = new ArrayList<Toy>();
 		ArrayList<String> ts = new ArrayList<>(Arrays.asList(toys.split(" ")));
-		for (int i = 0; i < ts.size(); i++) {
-			String name = ts.get(i);
+		for (String name : ts) {
 			Toy t = getThatToy(name);
-			if(t == null) {
+			if (t == null) {
 				toyList.add(new Toy(1, name));
-			}
-			else{
+			} else {
 				t.setCount(t.getCount() + 1);
 			}
 		}
