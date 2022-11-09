@@ -56,7 +56,7 @@ public class WordSearch
 	{
 		String str = "";
 		for(int i = 0; i < w.length(); i++) {
-			if(r + i < 8) str+=m[r+i][c];
+			if(r + i < 8) str += m[r+i][c];
 			else break;
 		}
 		return str.equals(w);
@@ -66,7 +66,7 @@ public class WordSearch
 	{
 		String str = "";
 		for(int i = 0; i < w.length(); i++) {
-			if(r - i >= 0) str+=m[r-i][c];
+			if(r - i >= 0) str += m[r-i][c];
 			else break;
 		}
 		return str.equals(w);
@@ -76,7 +76,7 @@ public class WordSearch
 	{
 		String str = "";
 		for(int i = 0; i < w.length(); i++) {
-			if(c + i < 8 && r + i < 8) str+=m[r+i][c+i];
+			if(c + i < 8 && r + i < 8) str += m[r+i][c+i];
 			else break;
 		}
 		return str.equals(w);
@@ -86,7 +86,7 @@ public class WordSearch
 	{
 		String str = "";
 		for(int i = 0; i < w.length(); i++) {
-			if(c - i >= 0 && r + i < 8) str+=m[r+i][c-i];
+			if(c - i >= 0 && r + i < 8) str += m[r+i][c-i];
 			else break;
 		}
 		return str.equals(w);
