@@ -207,25 +207,8 @@ public class PictureTester
 
     Picture pic = new Picture("/Users/rahulrao/Downloads/Programming/Projects/rao_rahul_apcsa-fall2022/Unit16/src/Images/apple_icon.jpg");
     Picture bgd = new Picture("/Users/rahulrao/Downloads/Programming/Projects/rao_rahul_apcsa-fall2022/Unit16/src/Images/beach.jpg");
-    pic.explore();
-    //pic.sine();
-    pic.sineShift();
-    pic.explore();
-    pic.radii();
-    pic.explore();
-    bgd.round();
-    bgd.explore();
-    bgd.encode(pic);
-    bgd.explore();
-    Picture result = bgd.decode();
-    result.deRadii();
-    result.explore();
-    result.deSine();
-    result.explore();
+
   }
-
-
-
   /** Main method for testing.  Every class can have a main
    * method in Java */
   public static void main(String[] args)
@@ -257,7 +240,7 @@ public class PictureTester
     //testEdgeDetection();
     //testEdgeDetection2();
     //testChromakey();
-    //testEncodeAndDecode();
+    testEncodeAndDecode();
     //testGetCountRedOverValue(250);
     //testSetRedToHalfValueInTopHalf();
     //testClearBlueOverValue(200);
