@@ -2,8 +2,11 @@ import java.awt.*;
 import java.awt.font.*;
 import java.awt.geom.*;
 import java.awt.image.BufferedImage;
+import java.awt.Color;
 import java.text.*;
 import java.util.*;
+import java.util.Collections;
+import java.util.Arrays;
 import java.util.List; // resolves problem with java.awt.List and java.util.List
 
 /**
@@ -18,8 +21,10 @@ public class Picture extends SimplePicture
   ///////////////////// constructors //////////////////////////////////
 
   /**
-   * Constructor that takes no arguments 
+   * Constructor that takes no arguments
+   *
    */
+
   public Picture ()
   {
     /* not needed but use it to show students the implicit call to super()
@@ -525,6 +530,58 @@ public class Picture extends SimplePicture
    * setting it to odd if the message pixel is black
    * @param messagePict the picture with a message
    */
+  public static double getIntensity(Color color)
+  {
+    int r = color.getRed();
+    int g = color.getGreen();
+    int b = color.getBlue();
+    return 0.299*r + 0.587*g + 0.114*b;
+  }
+  public void perfectSquareEncode(Picture messagePict){
+    Pixel[][] currPixels = this.getPixels2D();
+    Pixel[][] messagePixels = messagePict.getPixels2D();
+    Pixel currPixel = null;
+    Pixel messagePixel = null;
+    for(int row = 0; row < this.getHeight(); row++){
+      for(int col = 0; col < this.getWidth(); col++){
+        currPixel = currPixels[row][col];
+        currPixel.setRed((int) Math.pow(Math.round(Math.sqrt(currPixel.getRed())), 2));
+        currPixel.setBlue((int) Math.pow(Math.round(Math.sqrt(currPixel.getBlue())), 2));
+        currPixel.setGreen((int) Math.pow(Math.round(Math.sqrt((currPixel.getGreen()))), 2));
+        messagePixel = messagePixels[row][col];
+        if(messagePixel.colorDistance(Color.BLACK) < 50){
+          currPixel.setRed((int) (currPixel.getRed() + Math.ceil(Math.sqrt(Math.sqrt(Math.sqrt(currPixel.getBlue())))) + Math.ceil(Math.sqrt(Math.sqrt(Math.sqrt(currPixel.getGreen()))))));
+          currPixel.setBlue(currPixel.getBlue() + 1);
+          currPixel.setGreen(currPixel.getGreen() + 1);
+        }
+      }
+    }
+
+  }
+  public Picture perfectSquareDecode() {
+    Pixel[][] currPixels = this.getPixels2D();
+    Pixel currPixel = null;
+    Pixel messagePixel = null;
+    int height = this.getHeight();
+    int width = this.getWidth();
+    Picture messagePicture = new Picture(height,width);
+    Pixel[][] messagePixels = messagePicture.getPixels2D();
+    for(int row = 0; row < this.getHeight(); row++){
+      for(int col = 0; col < this.getWidth(); col++){
+        currPixel = currPixels[row][col];
+        messagePixel = messagePixels[row][col];
+        if(Math.sqrt(currPixel.getBlue()-1) == Math.round(Math.sqrt(currPixel.getBlue() -1))
+                && Math.sqrt(currPixel.getGreen()-1) == Math.round(Math.sqrt(currPixel.getGreen() -1))
+                && Math.sqrt(currPixel.getRed() - Math.ceil(Math.sqrt(Math.sqrt(Math.sqrt(currPixel.getBlue())))) - Math.ceil(Math.sqrt(Math.sqrt(Math.sqrt(currPixel.getGreen())))))
+                == Math.round(Math.sqrt(currPixel.getRed() -Math.ceil(Math.sqrt(Math.sqrt(Math.sqrt(currPixel.getBlue())))) - Math.ceil(Math.sqrt(Math.sqrt(Math.sqrt(currPixel.getGreen())))))))
+        {
+          messagePixel.setColor(Color.BLACK);
+        }
+      }
+    }
+    return messagePicture;
+
+  }
   public void encode(Picture messagePict)
   {
     Pixel[][] messagePixels = messagePict.getPixels2D();
@@ -541,7 +598,9 @@ public class Picture extends SimplePicture
         messagePixel = messagePixels[row][col];
         if (messagePixel.colorDistance(Color.BLACK) < 50)
         {
+
           currPixel.setRed(currPixel.getRed() + 1);
+
           count++;
         }
       }

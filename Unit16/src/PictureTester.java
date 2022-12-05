@@ -207,6 +207,24 @@ public class PictureTester
 
     Picture pic = new Picture("/Users/rahulrao/Downloads/Programming/Projects/rao_rahul_apcsa-fall2022/Unit16/src/Images/apple_icon.jpg");
     Picture bgd = new Picture("/Users/rahulrao/Downloads/Programming/Projects/rao_rahul_apcsa-fall2022/Unit16/src/Images/beach.jpg");
+  //bgd.explore();
+  //bgd.encode(pic);
+  //bgd.explore();
+  //bgd.explore();
+  //bgd.explore();
+  }
+  public static void testPerfectSquareEncode()
+  {
+    Picture pic = new Picture("/Users/rahulrao/Downloads/Programming/Projects/rao_rahul_apcsa-fall2022/Unit16/src/Images/apple_icon.jpg");
+    Picture bgd = new Picture("/Users/rahulrao/Downloads/Programming/Projects/rao_rahul_apcsa-fall2022/Unit16/src/Images/beach.jpg");
+    bgd.explore();
+    bgd.perfectSquareEncode(pic);
+    bgd.explore();
+    bgd.perfectSquareDecode();
+    bgd.explore();
+    Picture image = bgd.perfectSquareDecode();
+    image.explore();
+
 
   }
   /** Main method for testing.  Every class can have a main
@@ -240,7 +258,8 @@ public class PictureTester
     //testEdgeDetection();
     //testEdgeDetection2();
     //testChromakey();
-    testEncodeAndDecode();
+    //testEncodeAndDecode();
+    testPerfectSquareEncode();
     //testGetCountRedOverValue(250);
     //testSetRedToHalfValueInTopHalf();
     //testClearBlueOverValue(200);
