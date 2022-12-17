@@ -215,7 +215,7 @@ public class PictureTester
   }
   public static void testPerfectSquareEncode()
   {
-    Picture pic = new Picture("/Users/rahulrao/Downloads/Programming/Projects/rao_rahul_apcsa-fall2022/Unit16/src/Images/apple_icon.jpg");
+    Picture pic = new Picture("/Users/rahulrao/Downloads/Programming/Projects/rao_rahul_apcsa-fall2022/Unit16/src/Images/msg.jpg");
     Picture bgd = new Picture("/Users/rahulrao/Downloads/Programming/Projects/rao_rahul_apcsa-fall2022/Unit16/src/Images/beach.jpg");
     bgd.explore();
     bgd.perfectSquareEncode(pic);

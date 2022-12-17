@@ -550,7 +550,9 @@ public class Picture extends SimplePicture
         currPixel.setGreen((int) Math.pow(Math.round(Math.sqrt((currPixel.getGreen()))), 2));
         messagePixel = messagePixels[row][col];
         if(messagePixel.colorDistance(Color.BLACK) < 50){
-          currPixel.setRed((int) (currPixel.getRed() + Math.ceil(Math.sqrt(Math.sqrt(Math.sqrt(currPixel.getBlue())))) + Math.ceil(Math.sqrt(Math.sqrt(Math.sqrt(currPixel.getGreen()))))));
+          currPixel.setRed((int) (currPixel.getRed()
+                  + Math.ceil(Math.sqrt(Math.sqrt(Math.sqrt(currPixel.getBlue()))))
+                  + Math.ceil(Math.sqrt(Math.sqrt(Math.sqrt(currPixel.getGreen()))))));
           currPixel.setBlue(currPixel.getBlue() + 1);
           currPixel.setGreen(currPixel.getGreen() + 1);
         }
@@ -572,8 +574,10 @@ public class Picture extends SimplePicture
         messagePixel = messagePixels[row][col];
         if(Math.sqrt(currPixel.getBlue()-1) == Math.round(Math.sqrt(currPixel.getBlue() -1))
                 && Math.sqrt(currPixel.getGreen()-1) == Math.round(Math.sqrt(currPixel.getGreen() -1))
-                && Math.sqrt(currPixel.getRed() - Math.ceil(Math.sqrt(Math.sqrt(Math.sqrt(currPixel.getBlue())))) - Math.ceil(Math.sqrt(Math.sqrt(Math.sqrt(currPixel.getGreen())))))
-                == Math.round(Math.sqrt(currPixel.getRed() -Math.ceil(Math.sqrt(Math.sqrt(Math.sqrt(currPixel.getBlue())))) - Math.ceil(Math.sqrt(Math.sqrt(Math.sqrt(currPixel.getGreen())))))))
+                && Math.sqrt(currPixel.getRed() - Math.ceil(Math.sqrt(Math.sqrt(Math.sqrt(currPixel.getBlue()))))
+                - Math.ceil(Math.sqrt(Math.sqrt(Math.sqrt(currPixel.getGreen())))))
+                == Math.round(Math.sqrt(currPixel.getRed() -Math.ceil(Math.sqrt(Math.sqrt(Math.sqrt(currPixel.getBlue()))))
+                - Math.ceil(Math.sqrt(Math.sqrt(Math.sqrt(currPixel.getGreen())))))))
         {
           messagePixel.setColor(Color.BLACK);
         }
